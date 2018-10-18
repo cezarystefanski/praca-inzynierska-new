@@ -125,11 +125,11 @@
   },
   "lint-staged": {
     "*.js": [
-      "lint",
+      "eslint src/**/*.js",
       "jest --bail --findRelatedTests"
     ],
-    "*.css": "stylelint",
-    "*.scss": "stylelint --syntax=scss"
+    "*.css": "stylelint src/**/*.css",
+    "*.scss": "stylelint src/**/*.scss --syntax=scss"
   },
   "husky": {
     "hooks": {
