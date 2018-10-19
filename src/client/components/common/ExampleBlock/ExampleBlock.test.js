@@ -4,9 +4,7 @@ import { shallow } from 'enzyme';
 import { ExampleBlock } from './ExampleBlock';
 
 describe('component common/ExampleBlock', () => {
-  const wrapper = shallow(
-    <ExampleBlock text="example text" />,
-  );
+  const wrapper = shallow(<ExampleBlock text="example text" />);
 
   it('should render correctly with a prop', () => {
     expect(wrapper.find('p'))
@@ -19,9 +17,7 @@ describe('component common/ExampleBlock', () => {
   });
 
   it('should render correctly with no props', () => {
-    const wrapperWithNoProps = shallow(
-      <ExampleBlock />,
-    );
+    const wrapperWithNoProps = shallow(<ExampleBlock />);
 
     expect(wrapperWithNoProps.find('p'))
       .toHaveLength(1);
