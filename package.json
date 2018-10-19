@@ -4,9 +4,9 @@
   "private": true,
   "dependencies": {
     "@babel/core": "7.1.0",
-    "@storybook/addon-knobs": "^3.4.11",
-    "@storybook/addons": "^3.4.11",
-    "@storybook/react": "^3.4.11",
+    "@storybook/addon-knobs": "4.0.0-rc.1",
+    "@storybook/addons": "4.0.0-rc.1",
+    "@storybook/react": "4.0.0-rc.1",
     "@svgr/webpack": "2.4.1",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "9.0.0",
@@ -37,7 +37,7 @@
     "html-webpack-plugin": "4.0.0-alpha.2",
     "husky": "^1.1.2",
     "identity-obj-proxy": "3.0.0",
-    "jest": "23.6.0",
+    "jest": "^23.6.0",
     "jest-pnp-resolver": "1.0.1",
     "jest-resolve": "23.6.0",
     "lint-staged": "^7.3.0",
@@ -129,7 +129,10 @@
       "web.jsx",
       "jsx",
       "node"
-    ]
+    ],
+    "globals": {
+      "NODE_ENV": "test"
+    }
   },
   "babel": {
     "presets": [

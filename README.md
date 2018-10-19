@@ -2,5 +2,3 @@
 
 **Praca inżynierska**
 ***Cezary Stefański***
-
-Caveat for storybook for now: it doesn't work with babel 7, so to use it, temporarily add to your package.json `"babel-core": "^6.26.3",`. You have to do it, because to run jest, and by extension the pre-commit hook, you need `"babel-core": "7.0.0-bridge.0",`
