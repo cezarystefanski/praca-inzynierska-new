@@ -17,6 +17,7 @@
     "import/default": 2,
     "import/namespace": 2,
     "import/export": 2,
+    "import/prefer-default-export": 0,
     "max-len": 0,
     "key-spacing": [2, {"beforeColon": false, "afterColon": true, "mode": "minimum"}],
     "no-use-before-define": 0,
