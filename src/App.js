@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import ExampleBlock from './client/components/common/ExampleBlock';
+
 class App extends Component {
   render() {
     return (
@@ -21,6 +23,7 @@ class App extends Component {
           >
             Learn React
           </a>
+          <ExampleBlock text="some text" />
         </header>
       </div>
     );
