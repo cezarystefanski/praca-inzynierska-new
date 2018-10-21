@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { css } from '../../../styles/themes/ExampleTheme/ExampleTheme';
+import { css } from 'styles/themes/ExampleTheme/ExampleTheme';
 
 import withStyles from './styles';
 

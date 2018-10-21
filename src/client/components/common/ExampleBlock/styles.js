@@ -1,4 +1,4 @@
-import { withStyles } from '../../../styles/themes/ExampleTheme/ExampleTheme';
+import { withStyles } from 'styles/themes/ExampleTheme/ExampleTheme';
 
 export default withStyles(({ color, font }) => ({
   container: {
