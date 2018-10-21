@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 'use strict';
 
 const path = require('path');
@@ -14,6 +16,9 @@ const paths = require('./paths');
 const ManifestPlugin = require('webpack-manifest-plugin');
 const ModuleNotFoundPlugin = require('react-dev-utils/ModuleNotFoundPlugin');
 
+const resolvePaths = (...args) => {
+  return path.resolve(__dirname, 'src', ...args);
+};
 
 // Webpack uses `publicPath` to determine where the app is being served from.
 // In development, we always serve from the root. This makes config easier.
@@ -138,9 +143,9 @@ module.exports = {
     // for React Native Web.
     extensions: ['.mjs', '.web.js', '.js', '.json', '.web.jsx', '.jsx'],
     alias: {
-      // Support React Native Web
-      // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
-      'react-native': 'react-native-web',
+      server: resolvePaths('server'),
+      client: resolvePaths('client'),
+      styles: resolvePaths('styles'),
     },
     plugins: [
       // Adds support for installing with Plug'n'Play, leading to faster installs and adding
