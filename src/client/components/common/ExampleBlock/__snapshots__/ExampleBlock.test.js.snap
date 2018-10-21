@@ -3,8 +3,56 @@
 exports[`component common/ExampleBlock should not differ from earlier version 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ExampleBlock
+  Symbol(enzyme.__unrendered__): <ExampleBlockView
+    css={[Function]}
+    styles={
+      Object {
+        "container": Object {
+          "_definition": Object {
+            "backgroundColor": "#ccccff",
+            "borderRadius": "15px",
+            "marginTop": "30px",
+            "padding": "25px 50px",
+          },
+          "_len": 92,
+          "_name": "container_344hxm",
+        },
+        "heading": Object {
+          "_definition": Object {
+            "fontSize": "20px",
+            "fontWeight": 700,
+          },
+          "_len": 36,
+          "_name": "heading_1i3o6v",
+        },
+        "optionalParagraph": Object {
+          "_definition": Object {
+            "fontSize": "14px",
+          },
+          "_len": 19,
+          "_name": "optionalParagraph_1b2af1e",
+        },
+      }
+    }
     text="example text"
+    theme={
+      Object {
+        "color": Object {
+          "icyBlue": "#ccccff",
+        },
+        "font": Object {
+          "sizes": Object {
+            "big": "20px",
+            "normal": "14px",
+            "small": "8px",
+          },
+          "weights": Object {
+            "bold": 700,
+            "normal": 500,
+          },
+        },
+      }
+    }
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -20,13 +68,18 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <p>
+        <p
+          className="heading_1i3o6v"
+        >
           This is an empty block
         </p>,
-        <p>
+        <p
+          className="optionalParagraph_1b2af1e"
+        >
           example text
         </p>,
       ],
+      "className": "container_344hxm",
     },
     "ref": null,
     "rendered": Array [
@@ -36,6 +89,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "This is an empty block",
+          "className": "heading_1i3o6v",
         },
         "ref": null,
         "rendered": "This is an empty block",
@@ -47,6 +101,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "example text",
+          "className": "optionalParagraph_1b2af1e",
         },
         "ref": null,
         "rendered": "example text",
@@ -62,13 +117,18 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <p>
+          <p
+            className="heading_1i3o6v"
+          >
             This is an empty block
           </p>,
-          <p>
+          <p
+            className="optionalParagraph_1b2af1e"
+          >
             example text
           </p>,
         ],
+        "className": "container_344hxm",
       },
       "ref": null,
       "rendered": Array [
@@ -78,6 +138,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "This is an empty block",
+            "className": "heading_1i3o6v",
           },
           "ref": null,
           "rendered": "This is an empty block",
@@ -89,6 +150,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "example text",
+            "className": "optionalParagraph_1b2af1e",
           },
           "ref": null,
           "rendered": "example text",

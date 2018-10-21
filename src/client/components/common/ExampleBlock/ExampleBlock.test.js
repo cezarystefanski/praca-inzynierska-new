@@ -6,7 +6,7 @@ import { ExampleBlock } from './ExampleBlock';
 describe('component common/ExampleBlock', () => {
   const wrapper = shallow(
     <ExampleBlock text="example text" />,
-  );
+  ).shallow();
 
   it('should render correctly with a prop', () => {
     expect(wrapper.find('p'))
@@ -21,7 +21,7 @@ describe('component common/ExampleBlock', () => {
   it('should render correctly with no props', () => {
     const wrapperWithNoProps = shallow(
       <ExampleBlock />,
-    );
+    ).shallow();
 
     expect(wrapperWithNoProps.find('p'))
       .toHaveLength(1);
