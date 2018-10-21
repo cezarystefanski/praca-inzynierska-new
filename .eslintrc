@@ -1,6 +1,7 @@
 {
   "parser"  : "babel-eslint",
   "plugins": [
+    "react",
     "import"
   ],
   "extends" : ["airbnb"],
@@ -64,6 +65,11 @@
         ".jsx",
         ".json"
       ]
+    },
+    "import/resolver": {
+      "babel-module": {
+        "root": ["./src"]
+      }
     }
   }
 }
