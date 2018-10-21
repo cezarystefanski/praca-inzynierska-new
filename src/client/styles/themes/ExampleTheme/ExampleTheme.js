@@ -13,7 +13,8 @@ export const ExampleTheme = {
       small: '8px',
     },
     weights: {
-      bold: '700',
+      normal: 500,
+      bold: 700,
     },
   },
 };
