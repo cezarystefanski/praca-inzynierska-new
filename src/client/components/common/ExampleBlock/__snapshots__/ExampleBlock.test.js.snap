@@ -71,7 +71,10 @@ ShallowWrapper {
         <p
           className="heading_1i3o6v"
         >
-          This is an empty block
+          <FormattedMessage
+            id="example-block-001-block-explanation"
+            values={Object {}}
+          />
         </p>,
         <p
           className="optionalParagraph_1b2af1e"
@@ -88,11 +91,25 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "This is an empty block",
+          "children": <FormattedMessage
+            id="example-block-001-block-explanation"
+            values={Object {}}
+          />,
           "className": "heading_1i3o6v",
         },
         "ref": null,
-        "rendered": "This is an empty block",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "id": "example-block-001-block-explanation",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         "type": "p",
       },
       Object {
@@ -120,7 +137,10 @@ ShallowWrapper {
           <p
             className="heading_1i3o6v"
           >
-            This is an empty block
+            <FormattedMessage
+              id="example-block-001-block-explanation"
+              values={Object {}}
+            />
           </p>,
           <p
             className="optionalParagraph_1b2af1e"
@@ -137,11 +157,25 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "This is an empty block",
+            "children": <FormattedMessage
+              id="example-block-001-block-explanation"
+              values={Object {}}
+            />,
             "className": "heading_1i3o6v",
           },
           "ref": null,
-          "rendered": "This is an empty block",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "id": "example-block-001-block-explanation",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
           "type": "p",
         },
         Object {

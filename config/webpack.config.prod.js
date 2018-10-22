@@ -217,9 +217,12 @@ module.exports = {
     // for React Native Web.
     extensions: ['.mjs', '.web.js', '.js', '.json', '.web.jsx', '.jsx'],
     alias: {
-      server: resolvePaths('server'),
       client: resolvePaths('client'),
+      consts: resolvePaths('consts'),
+      messages: resolvePaths('messages'),
+      server: resolvePaths('server'),
       styles: resolvePaths('styles'),
+      utils: resolvePaths('utils'),
     },
     plugins: [
       // Adds support for installing with Plug'n'Play, leading to faster installs and adding
