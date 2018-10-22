@@ -6,4 +6,4 @@ function loadStories() {
   req.keys().forEach((filename) => req(filename))
 }
 
-configure(loadStories, module); // TODO: fix storybook again
+configure(loadStories, module);
