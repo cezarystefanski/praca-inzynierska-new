@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+
+import ExampleBlock from 'client/components/common/ExampleBlock';
+import ChangeLanguage from 'client/components/common/ChangeLanguage';
+
 import logo from './logo.svg';
 import './App.css';
-
-import ExampleBlock from './client/components/common/ExampleBlock';
 
 class App extends Component {
   render() {
@@ -24,6 +26,7 @@ class App extends Component {
             Learn React
           </a>
           <ExampleBlock text="some text" />
+          <ChangeLanguage />
         </header>
       </div>
     );
