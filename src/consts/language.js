@@ -1,6 +1,6 @@
-export const DEFAULT_LANGUAGE = 'en-GB';
+export const DEFAULT_LANGUAGE = 'en';
 
 export const LANG_LIST = {
-  english: 'en-GB',
-  polish: 'pl-PL',
+  en: 'english',
+  pl: 'polski',
 };
