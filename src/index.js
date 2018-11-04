@@ -1,20 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { IntlProvider } from 'react-intl';
+import 'aphrodite-reset';
 
-import { getLocale } from 'utils/language';
-import messages from 'messages/messages.json';
+import { IntlProvider } from 'utils/IntlProvider';
+
+import { getCurrentLanguage, getLocale } from 'utils/language';
 
 import './index.css';
 import App from './App';
 // import * as serviceWorker from './serviceWorker';
 
 const locale = getLocale();
+const currentLanguage = getCurrentLanguage();
 
 ReactDOM.render(
   <IntlProvider
     locale={locale}
-    messages={messages['en-GB']}
+    currentLanguage={currentLanguage}
   >
     <App />
   </IntlProvider>,

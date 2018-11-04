@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component common/ChangeLanguage should not differ from earlier version 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ChangeLanguageView
+    css={[Function]}
+    styles={
+      Object {
+        "changeLanguageBlock": Object {
+          "_definition": Object {
+            "display": "flex",
+          },
+          "_len": 18,
+          "_name": "changeLanguageBlock_jro6t0",
+        },
+        "container": Object {
+          "_definition": Object {
+            "color": "#fff",
+            "display": "flex",
+            "fontSize": "12px",
+          },
+          "_len": 51,
+          "_name": "container_c7r3ip",
+        },
+        "currentLanguageBlock": Object {
+          "_definition": Object {
+            "marginRight": "1.5rem",
+          },
+          "_len": 24,
+          "_name": "currentLanguageBlock_y4samv",
+        },
+        "currentLanguageLabel": Object {
+          "_definition": Object {
+            "marginRight": "0.5rem",
+          },
+          "_len": 24,
+          "_name": "currentLanguageLabel_udgkk6",
+        },
+        "currentLanguageValue": Object {
+          "_definition": Object {
+            "fontWeight": 700,
+          },
+          "_len": 18,
+          "_name": "currentLanguageValue_u5j6yl",
+        },
+        "inactiveLanguage": Object {
+          "_definition": Object {
+            "color": "#aaa",
+            "cursor": "not-allowed",
+            "textDecoration": "none",
+          },
+          "_len": 63,
+          "_name": "inactiveLanguage_17eoe3d",
+        },
+        "languageElement": Object {
+          "_definition": Object {
+            ":not(:first-child)": Object {
+              ":before": Object {
+                "color": "#fff",
+                "content": "'|'",
+                "marginRight": "0.25rem",
+              },
+            },
+            "cursor": "pointer",
+            "marginLeft": "0.25rem",
+            "textDecoration": "underline",
+          },
+          "_len": 162,
+          "_name": "languageElement_131nfzv",
+        },
+        "languageList": Object {
+          "_definition": Object {
+            "display": "flex",
+            "listStyle": "none",
+            "margin": 0,
+            "padding": 0,
+          },
+          "_len": 60,
+          "_name": "languageList_mn4u4y",
+        },
+        "resettedButton": Object {
+          "_definition": Object {
+            "background": "none",
+            "border": "none",
+            "color": "inherit",
+            "cursor": "inherit",
+            "font": "inherit",
+            "outline": "inherit",
+            "padding": "0",
+            "textDecoration": "inherit",
+          },
+          "_len": 152,
+          "_name": "resettedButton_1wm8fde",
+        },
+      }
+    }
+    theme={
+      Object {
+        "color": Object {
+          "grey": "#aaa",
+          "icyBlue": "#ccf",
+          "white": "#fff",
+        },
+        "font": Object {
+          "sizes": Object {
+            "big": "20px",
+            "normal": "14px",
+            "small": "12px",
+          },
+          "weights": Object {
+            "bold": 700,
+            "normal": 500,
+          },
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <FormattedMessage
+          id="common--change_language--current_language"
+          values={Object {}}
+        >
+          [Function]
+        </FormattedMessage>,
+        <FormattedMessage
+          id="common--change_language--change"
+          values={Object {}}
+        >
+          [Function]
+        </FormattedMessage>,
+      ],
+      "className": "container_c7r3ip",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": [Function],
+          "id": "common--change_language--current_language",
+          "values": Object {},
+        },
+        "ref": null,
+        "rendered": [Function],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": [Function],
+          "id": "common--change_language--change",
+          "values": Object {},
+        },
+        "ref": null,
+        "rendered": [Function],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <FormattedMessage
+            id="common--change_language--current_language"
+            values={Object {}}
+          >
+            [Function]
+          </FormattedMessage>,
+          <FormattedMessage
+            id="common--change_language--change"
+            values={Object {}}
+          >
+            [Function]
+          </FormattedMessage>,
+        ],
+        "className": "container_c7r3ip",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": [Function],
+            "id": "common--change_language--current_language",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": [Function],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": [Function],
+            "id": "common--change_language--change",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": [Function],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

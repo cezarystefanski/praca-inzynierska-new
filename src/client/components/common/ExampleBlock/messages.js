@@ -1,5 +1,5 @@
 export default {
   BlockExplanation: {
-    id: 'example-block-001-block-explanation',
+    id: 'common--example_block--block_explanation',
   },
 };

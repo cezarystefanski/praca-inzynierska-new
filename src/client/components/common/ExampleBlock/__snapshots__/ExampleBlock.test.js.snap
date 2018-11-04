@@ -9,13 +9,13 @@ ShallowWrapper {
       Object {
         "container": Object {
           "_definition": Object {
-            "backgroundColor": "#ccccff",
+            "backgroundColor": "#ccf",
             "borderRadius": "15px",
             "marginTop": "30px",
             "padding": "25px 50px",
           },
-          "_len": 92,
-          "_name": "container_344hxm",
+          "_len": 89,
+          "_name": "container_1sms46k",
         },
         "heading": Object {
           "_definition": Object {
@@ -38,13 +38,15 @@ ShallowWrapper {
     theme={
       Object {
         "color": Object {
-          "icyBlue": "#ccccff",
+          "grey": "#aaa",
+          "icyBlue": "#ccf",
+          "white": "#fff",
         },
         "font": Object {
           "sizes": Object {
             "big": "20px",
             "normal": "14px",
-            "small": "8px",
+            "small": "12px",
           },
           "weights": Object {
             "bold": 700,
@@ -72,7 +74,7 @@ ShallowWrapper {
           className="heading_1i3o6v"
         >
           <FormattedMessage
-            id="example-block-001-block-explanation"
+            id="common--example_block--block_explanation"
             values={Object {}}
           />
         </p>,
@@ -82,7 +84,7 @@ ShallowWrapper {
           example text
         </p>,
       ],
-      "className": "container_344hxm",
+      "className": "container_1sms46k",
     },
     "ref": null,
     "rendered": Array [
@@ -92,7 +94,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <FormattedMessage
-            id="example-block-001-block-explanation"
+            id="common--example_block--block_explanation"
             values={Object {}}
           />,
           "className": "heading_1i3o6v",
@@ -103,7 +105,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "id": "example-block-001-block-explanation",
+            "id": "common--example_block--block_explanation",
             "values": Object {},
           },
           "ref": null,
@@ -138,7 +140,7 @@ ShallowWrapper {
             className="heading_1i3o6v"
           >
             <FormattedMessage
-              id="example-block-001-block-explanation"
+              id="common--example_block--block_explanation"
               values={Object {}}
             />
           </p>,
@@ -148,7 +150,7 @@ ShallowWrapper {
             example text
           </p>,
         ],
-        "className": "container_344hxm",
+        "className": "container_1sms46k",
       },
       "ref": null,
       "rendered": Array [
@@ -158,7 +160,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <FormattedMessage
-              id="example-block-001-block-explanation"
+              id="common--example_block--block_explanation"
               values={Object {}}
             />,
             "className": "heading_1i3o6v",
@@ -169,7 +171,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "id": "example-block-001-block-explanation",
+              "id": "common--example_block--block_explanation",
               "values": Object {},
             },
             "ref": null,

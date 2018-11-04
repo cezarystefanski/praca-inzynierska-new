@@ -10,6 +10,7 @@
     "@storybook/react": "4.0.0-rc.1",
     "@svgr/webpack": "2.4.1",
     "aphrodite": "^2.2.3",
+    "aphrodite-reset": "^2.0.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "9.0.0",
     "babel-jest": "23.6.0",
@@ -104,12 +105,16 @@
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
       "!src/**/index.js",
-      "!src/**/*.stories.js"
+      "!src/**/browserMocks.js",
+      "!src/**/*.stories.js",
+      "!src/**/styles.js",
+      "!src/mocks/**/*.js"
     ],
     "resolver": "jest-pnp-resolver",
     "setupFiles": [
       "react-app-polyfill/jsdom",
-      "<rootDir>/src/setupTests.js"
+      "<rootDir>/src/setupTests.js",
+      "<rootDir>/src/browserMocks.js"
     ],
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.{js,jsx}",
