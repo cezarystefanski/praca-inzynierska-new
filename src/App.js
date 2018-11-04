@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+
+import ExampleBlock from 'client/components/common/ExampleBlock';
+import ChangeLanguage from 'client/components/common/ChangeLanguage';
+
 import logo from './logo.svg';
 import './App.css';
-
-import ExampleBlock from './client/components/common/ExampleBlock';
 
 class App extends Component {
   render() {
@@ -11,9 +13,9 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit
+            Edit&nbsp;
             <code>src/App.js</code>
-            and save to reload.
+            &nbsp;and save to reload.
           </p>
           <a
             className="App-link"
@@ -24,6 +26,7 @@ class App extends Component {
             Learn React
           </a>
           <ExampleBlock text="some text" />
+          <ChangeLanguage />
         </header>
       </div>
     );

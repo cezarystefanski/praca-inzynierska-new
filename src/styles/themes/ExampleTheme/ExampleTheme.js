@@ -4,13 +4,15 @@ import { css, withStyles } from 'react-with-styles';
 
 export const ExampleTheme = {
   color: {
-    icyBlue: '#ccccff',
+    grey: '#aaa',
+    icyBlue: '#ccf',
+    white:  '#fff',
   },
   font: {
     sizes: {
       big: '20px',
       normal: '14px',
-      small: '8px',
+      small: '12px',
     },
     weights: {
       normal: 500,

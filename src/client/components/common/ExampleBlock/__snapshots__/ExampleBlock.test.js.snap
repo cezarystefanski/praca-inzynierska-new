@@ -9,13 +9,13 @@ ShallowWrapper {
       Object {
         "container": Object {
           "_definition": Object {
-            "backgroundColor": "#ccccff",
+            "backgroundColor": "#ccf",
             "borderRadius": "15px",
             "marginTop": "30px",
             "padding": "25px 50px",
           },
-          "_len": 92,
-          "_name": "container_344hxm",
+          "_len": 89,
+          "_name": "container_1sms46k",
         },
         "heading": Object {
           "_definition": Object {
@@ -38,13 +38,15 @@ ShallowWrapper {
     theme={
       Object {
         "color": Object {
-          "icyBlue": "#ccccff",
+          "grey": "#aaa",
+          "icyBlue": "#ccf",
+          "white": "#fff",
         },
         "font": Object {
           "sizes": Object {
             "big": "20px",
             "normal": "14px",
-            "small": "8px",
+            "small": "12px",
           },
           "weights": Object {
             "bold": 700,
@@ -71,7 +73,10 @@ ShallowWrapper {
         <p
           className="heading_1i3o6v"
         >
-          This is an empty block
+          <FormattedMessage
+            id="common--example_block--block_explanation"
+            values={Object {}}
+          />
         </p>,
         <p
           className="optionalParagraph_1b2af1e"
@@ -79,7 +84,7 @@ ShallowWrapper {
           example text
         </p>,
       ],
-      "className": "container_344hxm",
+      "className": "container_1sms46k",
     },
     "ref": null,
     "rendered": Array [
@@ -88,11 +93,25 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "This is an empty block",
+          "children": <FormattedMessage
+            id="common--example_block--block_explanation"
+            values={Object {}}
+          />,
           "className": "heading_1i3o6v",
         },
         "ref": null,
-        "rendered": "This is an empty block",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "id": "common--example_block--block_explanation",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         "type": "p",
       },
       Object {
@@ -120,7 +139,10 @@ ShallowWrapper {
           <p
             className="heading_1i3o6v"
           >
-            This is an empty block
+            <FormattedMessage
+              id="common--example_block--block_explanation"
+              values={Object {}}
+            />
           </p>,
           <p
             className="optionalParagraph_1b2af1e"
@@ -128,7 +150,7 @@ ShallowWrapper {
             example text
           </p>,
         ],
-        "className": "container_344hxm",
+        "className": "container_1sms46k",
       },
       "ref": null,
       "rendered": Array [
@@ -137,11 +159,25 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "This is an empty block",
+            "children": <FormattedMessage
+              id="common--example_block--block_explanation"
+              values={Object {}}
+            />,
             "className": "heading_1i3o6v",
           },
           "ref": null,
-          "rendered": "This is an empty block",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "id": "common--example_block--block_explanation",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
           "type": "p",
         },
         Object {
