@@ -6,8 +6,6 @@ import ChangeLanguage from 'client/components/common/ChangeLanguage';
 import logo from './logo.svg';
 import './App.css';
 
-import ExampleBlock from './client/components/common/ExampleBlock';
-
 class App extends Component {
   render() {
     return (
