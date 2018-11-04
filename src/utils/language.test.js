@@ -47,10 +47,6 @@ describe('utils utils/language', () => {
     const { localStorage } = window;
     localStorage.clear();
 
-    // Object.defineProperty(window.location, 'reload', {
-    //   configurable: true,
-    //   writable: true,
-    // });
     window.location.reload = jest.fn();
 
     expect(window.location.reload)
