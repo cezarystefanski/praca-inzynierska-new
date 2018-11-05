@@ -2,9 +2,9 @@ import React from 'react';
 import { mount, shallow } from 'enzyme';
 import { IntlProvider } from 'utils/IntlProvider';
 
-import { LanguageList } from './LanguageList';
+import LanguageList from './index';
 
-describe('component common/ChangeLanguage', () => {
+describe('component common/LanguageList', () => {
   const wrapper = mount(
     <IntlProvider>
       <LanguageList />

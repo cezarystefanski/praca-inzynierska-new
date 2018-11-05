@@ -1,49 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`component common/ChangeLanguage should not differ from earlier version 1`] = `
+exports[`component common/LanguageList should not differ from earlier version 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <LanguageListView
     css={[Function]}
     styles={
       Object {
-        "changeLanguageBlock": Object {
-          "_definition": Object {
-            "display": "flex",
-          },
-          "_len": 18,
-          "_name": "changeLanguageBlock_jro6t0",
-        },
-        "container": Object {
-          "_definition": Object {
-            "color": "#fff",
-            "display": "flex",
-            "fontSize": "12px",
-          },
-          "_len": 51,
-          "_name": "container_c7r3ip",
-        },
-        "currentLanguageBlock": Object {
-          "_definition": Object {
-            "marginRight": "1.5rem",
-          },
-          "_len": 24,
-          "_name": "currentLanguageBlock_y4samv",
-        },
-        "currentLanguageLabel": Object {
-          "_definition": Object {
-            "marginRight": "0.5rem",
-          },
-          "_len": 24,
-          "_name": "currentLanguageLabel_udgkk6",
-        },
-        "currentLanguageValue": Object {
-          "_definition": Object {
-            "fontWeight": 700,
-          },
-          "_len": 18,
-          "_name": "currentLanguageValue_u5j6yl",
-        },
         "inactiveLanguage": Object {
           "_definition": Object {
             "color": "#aaa",

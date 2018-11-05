@@ -2,7 +2,7 @@ import React from 'react';
 import { mount, shallow } from 'enzyme';
 import { IntlProvider } from 'utils/IntlProvider';
 
-import { ChangeLanguage } from './ChangeLanguage';
+import ChangeLanguage from './index';
 
 describe('component common/ChangeLanguage', () => {
   const wrapper = mount(

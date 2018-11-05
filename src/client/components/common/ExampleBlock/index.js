@@ -1,3 +1,13 @@
-import { ExampleBlock } from './ExampleBlock';
+import { compose } from 'recompose';
 
-export default ExampleBlock;
+import { ExampleBlockView as ExampleBlock } from './ExampleBlock';
+
+import withStyles from './styles';
+
+const enhance = compose(
+  withStyles,
+);
+
+const Component = enhance(ExampleBlock);
+
+export default Component;
