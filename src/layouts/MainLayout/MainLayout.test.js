@@ -1,15 +1,15 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import App from './App';
+import { MainLayout } from './MainLayout';
 
-describe('App', () => {
+describe('MainLayout', () => {
   const wrapper = shallow(
-    <App />,
-  ).shallow();
+    <MainLayout />,
+  );
 
   it('should render correctly', () => {
-    expect(wrapper.find('img'))
-      .toHaveLength(1);
+    expect(wrapper)
+      .toBeDefined();
   });
 });

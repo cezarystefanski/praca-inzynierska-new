@@ -1,0 +1,12 @@
+{
+  "en": {
+    "common--example_block--block_explanation": "This is an empty block",
+    "common--change_language--current_language": "Current language:",
+    "common--change_language--change": "change:"
+  },
+  "pl": {
+    "common--example_block--block_explanation": "Oto przykładowy blok",
+    "common--change_language--current_language": "Aktualny język:",
+    "common--change_language--change": "zmień:"
+  }
+}

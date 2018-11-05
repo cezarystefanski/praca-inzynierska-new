@@ -1,6 +1,6 @@
 import { compose } from 'recompose';
 
-import { ExampleBlockView as ExampleBlock } from './ExampleBlock';
+import { ChangeLanguageView as ChangeLanguage } from './ChangeLanguage';
 
 import withStyles from './styles';
 
@@ -8,6 +8,6 @@ const enhance = compose(
   withStyles,
 );
 
-const Component = enhance(ExampleBlock);
+const Component = enhance(ChangeLanguage);
 
 export default Component;

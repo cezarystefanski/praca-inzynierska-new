@@ -1,17 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { FormattedMessage } from 'react-intl';
 
-export const ExampleBlock = ({ text }) => (
-  <div>
-    <p>This is an empty block</p>
-    {text && <p>{text}</p>}
+import { css } from 'styles/themes/ExampleTheme/ExampleTheme';
+
+import messages from './messages';
+
+export const ExampleBlockView = ({ text, styles }) => (
+  <div {...css(styles.container)}>
+    <p {...css(styles.heading)}><FormattedMessage {...messages.BlockExplanation} /></p>
+    {text && <p {...css(styles.optionalParagraph)}>{text}</p>}
   </div>
 );
 
-ExampleBlock.propTypes = {
+ExampleBlockView.propTypes = {
   text: PropTypes.string,
 };
 
-ExampleBlock.defaultProps = {
+ExampleBlockView.defaultProps = {
   text: '',
 };

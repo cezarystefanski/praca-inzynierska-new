@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 'use strict';
 
 const path = require('path');
@@ -18,6 +20,9 @@ const paths = require('./paths');
 const getClientEnvironment = require('./env');
 const ModuleNotFoundPlugin = require('react-dev-utils/ModuleNotFoundPlugin');
 
+const resolvePaths = (...args) => {
+  return path.resolve(__dirname, 'src', ...args);
+};
 
 // Webpack uses `publicPath` to determine where the app is being served from.
 // It requires a trailing slash, or the file assets will get an incorrect path.
@@ -212,9 +217,14 @@ module.exports = {
     // for React Native Web.
     extensions: ['.mjs', '.web.js', '.js', '.json', '.web.jsx', '.jsx'],
     alias: {
-      // Support React Native Web
-      // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
-      'react-native': 'react-native-web',
+      client: resolvePaths('client'),
+      consts: resolvePaths('consts'),
+      layouts: resolvePaths('layouts'),
+      messages: resolvePaths('messages'),
+      routes: resolvePaths('routes'),
+      server: resolvePaths('server'),
+      styles: resolvePaths('styles'),
+      utils: resolvePaths('utils'),
     },
     plugins: [
       // Adds support for installing with Plug'n'Play, leading to faster installs and adding

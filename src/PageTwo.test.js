@@ -1,15 +1,15 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import App from './App';
+import { PageTwo } from './PageTwo';
 
-describe('App', () => {
+describe('PageTwo', () => {
   const wrapper = shallow(
-    <App />,
+    <PageTwo />,
   ).shallow();
 
   it('should render correctly', () => {
-    expect(wrapper.find('img'))
+    expect(wrapper.find('div'))
       .toHaveLength(1);
   });
 });

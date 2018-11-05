@@ -1,15 +1,15 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import App from './App';
+import { NavBar } from './NavBar';
 
-describe('App', () => {
+describe('NavBar', () => {
   const wrapper = shallow(
-    <App />,
-  ).shallow();
+    <NavBar />,
+  );
 
   it('should render correctly', () => {
-    expect(wrapper.find('img'))
-      .toHaveLength(1);
+    expect(wrapper)
+      .toBeDefined();
   });
 });
