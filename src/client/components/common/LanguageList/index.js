@@ -1,6 +1,6 @@
 import { compose } from 'recompose';
 
-import { ChangeLanguageView as ChangeLanguage } from './ChangeLanguage';
+import { LanguageListView as LanguageList } from './LanguageList';
 
 import withStyles from './styles';
 
@@ -8,6 +8,6 @@ const enhance = compose(
   withStyles,
 );
 
-const Component = enhance(ChangeLanguage);
+const Component = enhance(LanguageList);
 
 export default Component;

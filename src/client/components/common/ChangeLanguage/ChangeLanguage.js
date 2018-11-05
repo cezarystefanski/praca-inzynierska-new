@@ -6,10 +6,9 @@ import { css } from 'styles/themes/ExampleTheme/ExampleTheme';
 import { getCurrentLanguage } from 'utils/language';
 import { LANG_LIST } from 'consts/language';
 
-import messages from './messages';
-import withStyles from './styles';
+import LanguageList from 'client/components/common/LanguageList';
 
-import { LanguageList } from './LanguageList';
+import messages from './messages';
 
 export const ChangeLanguageView = ({ styles }) => {
   const currentLanguage = getCurrentLanguage();
@@ -41,5 +40,3 @@ export const ChangeLanguageView = ({ styles }) => {
     </div>
   );
 };
-
-export const ChangeLanguage = withStyles(ChangeLanguageView);

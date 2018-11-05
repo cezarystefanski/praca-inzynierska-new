@@ -4,7 +4,7 @@ import { withKnobs, text } from '@storybook/addon-knobs';
 
 import { IntlProvider } from 'utils/IntlProvider';
 
-import { ExampleBlock } from './ExampleBlock';
+import ExampleBlock from './index';
 
 const stories = storiesOf('common/ExampleBlock', module);
 stories.addDecorator(withKnobs);

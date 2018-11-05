@@ -5,8 +5,6 @@ import { css } from 'styles/themes/ExampleTheme/ExampleTheme';
 import { setLocale } from 'utils/language';
 import { LANG_LIST } from 'consts/language';
 
-import withStyles from './styles';
-
 export class LanguageListView extends Component {
   changeLanguage = (lang, currentLang) => {
     if (lang === currentLang) {
@@ -45,5 +43,3 @@ export class LanguageListView extends Component {
     );
   }
 }
-
-export const LanguageList = withStyles(LanguageListView);
