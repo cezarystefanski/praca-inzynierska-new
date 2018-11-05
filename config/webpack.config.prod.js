@@ -219,7 +219,9 @@ module.exports = {
     alias: {
       client: resolvePaths('client'),
       consts: resolvePaths('consts'),
+      layouts: resolvePaths('layouts'),
       messages: resolvePaths('messages'),
+      routes: resolvePaths('routes'),
       server: resolvePaths('server'),
       styles: resolvePaths('styles'),
       utils: resolvePaths('utils'),
