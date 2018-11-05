@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 
 import { IntlProvider } from 'utils/IntlProvider';
 
-import { ChangeLanguage } from './ChangeLanguage';
+import ChangeLanguage from './index';
 
 const stories = storiesOf('common/ChangeLanguage', module);
 

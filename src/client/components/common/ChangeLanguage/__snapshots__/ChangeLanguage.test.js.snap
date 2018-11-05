@@ -44,55 +44,6 @@ ShallowWrapper {
           "_len": 18,
           "_name": "currentLanguageValue_u5j6yl",
         },
-        "inactiveLanguage": Object {
-          "_definition": Object {
-            "color": "#aaa",
-            "cursor": "not-allowed",
-            "textDecoration": "none",
-          },
-          "_len": 63,
-          "_name": "inactiveLanguage_17eoe3d",
-        },
-        "languageElement": Object {
-          "_definition": Object {
-            ":not(:first-child)": Object {
-              ":before": Object {
-                "color": "#fff",
-                "content": "'|'",
-                "marginRight": "0.25rem",
-              },
-            },
-            "cursor": "pointer",
-            "marginLeft": "0.25rem",
-            "textDecoration": "underline",
-          },
-          "_len": 162,
-          "_name": "languageElement_131nfzv",
-        },
-        "languageList": Object {
-          "_definition": Object {
-            "display": "flex",
-            "listStyle": "none",
-            "margin": 0,
-            "padding": 0,
-          },
-          "_len": 60,
-          "_name": "languageList_mn4u4y",
-        },
-        "resettedButton": Object {
-          "_definition": Object {
-            "background": "none",
-            "border": "none",
-            "color": "inherit",
-            "cursor": "inherit",
-            "font": "inherit",
-            "outline": "inherit",
-            "padding": "0",
-            "textDecoration": "inherit",
-          },
-          "_len": 152,
-          "_name": "resettedButton_1wm8fde",
-        },
       }
     }
     theme={

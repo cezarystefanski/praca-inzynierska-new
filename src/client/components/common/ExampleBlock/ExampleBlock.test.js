@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { ExampleBlock } from './ExampleBlock';
+import ExampleBlock from './index';
 
 describe('component common/ExampleBlock', () => {
   const wrapper = shallow(
