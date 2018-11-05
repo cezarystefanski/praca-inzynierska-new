@@ -6,8 +6,10 @@ import { IntlProvider } from 'utils/IntlProvider';
 
 import { getCurrentLanguage, getLocale } from 'utils/language';
 
+import { MainLayout } from 'layouts/MainLayout/MainLayout';
+
 import './index.css';
-import App from './App';
+
 // import * as serviceWorker from './serviceWorker';
 
 const locale = getLocale();
@@ -18,7 +20,7 @@ ReactDOM.render(
     locale={locale}
     currentLanguage={currentLanguage}
   >
-    <App />
+    <MainLayout />
   </IntlProvider>,
   document.getElementById('root'),
 );
